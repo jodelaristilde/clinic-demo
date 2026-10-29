@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache">
 <title>Clinic Demo</title>
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -88,7 +89,7 @@ label .es{font-size:.85em}
 body[data-th=signin] #app{background:transparent!important;box-shadow:none!important}
 body[data-th=signin] #hdr{display:none}
 .si{min-height:calc(100vh - 40px);min-height:calc(100dvh - 40px);display:flex;align-items:center;justify-content:center;padding:24px 0}
-.si{width:100%;box-sizing:border-box}.sicard{width:100%;max-width:400px;flex:0 1 400px;min-width:min(300px,100%);box-sizing:border-box;background:rgba(255,255,255,.96);border-radius:30px;padding:28px 26px 18px;text-align:center;box-shadow:0 30px 80px rgba(10,14,40,.45),0 0 0 1px rgba(255,255,255,.6) inset;backdrop-filter:blur(6px)}
+.si{width:100%;box-sizing:border-box}.sicard{width:400px;max-width:100%;flex:none;margin:0 auto;box-sizing:border-box;background:rgba(255,255,255,.96);border-radius:30px;padding:28px 26px 18px;text-align:center;box-shadow:0 30px 80px rgba(10,14,40,.45),0 0 0 1px rgba(255,255,255,.6) inset;backdrop-filter:blur(6px)}
 .silogo{width:138px;margin:0 auto 6px}.silogo svg{display:block;width:100%;height:auto}
 .sicard h1{margin:6px 0 0;font-size:30px;color:#1a1f3d}.sicard h1 span{display:block;font-size:16px;font-weight:600;color:#b4410f;margin-top:2px}
 .sisub{margin:8px 0 14px;color:#5a6378;font-size:16px}
@@ -191,7 +192,7 @@ body[data-th] .tabs button.on{background:var(--pri);color:#fff}
 @media print{body.pb #brl,body.pb #brl *{visibility:visible}body.pb #brl{display:block;position:absolute;left:0;top:0;width:100%}body.pb #slip{display:none}body[data-th]{background:#fff!important}body::before{display:none!important}}
 .phrow{display:flex;align-items:center;gap:12px}.phrow>div{min-width:0}@media(max-width:380px){.phic{display:none}.phsw{min-width:0!important}}.phic{font-size:30px}.phsw{flex:none;display:inline-flex;align-items:center;gap:8px;width:auto;min-width:96px;margin:0;padding:6px 14px 6px 6px;border-radius:999px;border:0;background:#cfd6de;color:#33414d;font-weight:700;font-size:15px;cursor:pointer}.phsw .knob{width:30px;height:30px;border-radius:50%;background:#fff;box-shadow:0 2px 5px rgba(0,0,0,.25)}.phsw.on{background:#6a1b9a;color:#fff;flex-direction:row-reverse;padding:6px 6px 6px 14px}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}*{touch-action:manipulation}
-html{overflow-x:hidden}body{max-width:100%;overflow-x:clip}body{min-height:100vh;min-height:100dvh;padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right);padding-bottom:env(safe-area-inset-bottom)}
+body{min-height:100vh;min-height:100dvh;padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right);padding-bottom:env(safe-area-inset-bottom)}
 img,svg,canvas,table{max-width:100%}
 #a2hs{position:fixed;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:9999;display:flex;gap:12px;align-items:center;padding:12px 14px;border-radius:16px;background:#13233d;color:#fff;font-size:15px;line-height:1.35;box-shadow:0 10px 30px rgba(0,0,0,.35)}
 #a2hs b{color:#ffc56e}#a2hs small{display:block;color:#ffb27a}#a2hs button{flex:none;width:auto;margin:0;padding:8px 12px;border-radius:10px;border:0;background:#fff;color:#13233d;font-weight:700}
